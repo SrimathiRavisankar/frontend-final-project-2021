@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact us</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+    <link rel="stylesheet" href="../css/home.css">
+    <script src="../js/home.js"></script>
+</head>
+
+<body>
+    <header>
+        <p>Internet Technologies - Client Side Study Block Project</p>
+    </header>
+    <div class="main">
+        <aside>
+            <a href="index.html">Home</a>
+            <a href="srimathi.html">Srimathi</a>
+            <a href="anastassiya.html">Anastassiya</a>
+            <a href="ana.html">Ana</a>
+            <a href="zein.html">Zein</a>
+            <a class="active" href="contact.html">Contact</a>
+        </aside>
+        <main id="form">
+            <div id="subTitle">Contact</div>
+            <form>
+                <label>Name</label>
+                <input id="name" name="name" type="text" onkeyup="enablePost()" />
+
+                <label>Message</label>
+                <textarea id="message" name="message" onkeyup="enablePost()"></textarea>
+
+                <button onclick="post()" id="postButton" disabled="disabled">post</button>
+            </form>
+
+        </main>
+    </div>
+    <footer>
+        Team 404 @Copyright 2021
+    </footer>
+    
+</body>
+
+</html>

@@ -1,3 +1,7 @@
-# Final project for CULS frontend study block
+# Internet Technologies - Study block project by Team 404
 
-Here I will publish all the work, done on hands on sections, connected to the final project. 
+- Srimathi Ravisankar
+- Anastassiya Li
+- Ana Lekveishvili
+- Zein Hammad
+
